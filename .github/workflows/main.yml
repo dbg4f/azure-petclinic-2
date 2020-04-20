@@ -1,4 +1,4 @@
-name: Deploy Java app to Azure Web App
+name: Deploy Java app to Azure Web Application
 
 on:
   [push]
