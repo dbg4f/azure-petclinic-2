@@ -60,7 +60,7 @@ env:
   AZURE_WEBAPP_PUBLISH_PROFILE: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}     # set GH repo secret with the publish profile of the web app
 ```
 
-1. We can authenticate using either Azure Web App Publish Profile or using [Azure Login]( https://github.com/Azure/login). Here, we are using Azure Web App Publish Profile. In the portal, Overview page, click on "Get publish profile". A publish profile is a kind of deployment credential, useful when you don't own the Azure subscription. Open the downloaded settings file in VS Code and copy the contents of the file.
+1. We can authenticate using either Azure Web App Publish Profile or using [Azure Login]( https://github.com/Azure/login). Here, we are using Azure Web App Publish Profile. In the Azure portal, Overview page, click on "Get publish profile". A publish profile is a kind of deployment credential, useful when you don't own the Azure subscription. Open the downloaded settings file in VS Code and copy the contents of the file.
 
    ![](https://github.com/Azure/actions-workflow-samples/blob/master/assets/images/get-publish-profile.png)
 
@@ -78,7 +78,7 @@ env:
 
 1. You can go back to the Actions tab, click on your workflow, and see that the workflow is queued or being deployed. Wait for the job to complete successfully.
 
-1. Browse your app by pasting the URL of your Azure web app: https://AZURE_WEBAPP_NAME.azurewebsites.net
+1. Browse your app by pasting the URL of your Azure web app: https://AZURE_WEBAPP_NAME.azurewebsites.net which is also generated in the workflow logs in the deploy job section.
 
 1. Make any changes by editing the app contents and commit the changes. Browse to the **Actions** tab in GitHub to view the live logs of your Action workflow which got triggered with the push of the commit.
 
