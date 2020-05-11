@@ -23,7 +23,7 @@ import javax.persistence.MappedSuperclass;
  * a base class for objects needing these properties.
  *
  * @author Ken Krebs
- * @author Juergen Hoelleri
+ * @author Juergen Hoellerii
  */
 @MappedSuperclass
 public class NamedEntity extends BaseEntity {
