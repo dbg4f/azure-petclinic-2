@@ -1,5 +1,5 @@
 ---
-page_type: sampleew
+page_type: sampleewe
 languages: Java
 products: GitHub
 description: "Deploy Spring Petclinic application using GitHub Actions"
